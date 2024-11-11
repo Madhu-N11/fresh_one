@@ -5,3 +5,4 @@ echo "$a contains alphanumeric"
 else
 echo "$a does not contains alphanumeric"
 fi
+echo "$1"
