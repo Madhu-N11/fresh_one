@@ -1,0 +1,7 @@
+#!/bin/bash
+a=$1
+if [[ $a =~ [a-zA-Z0-9] ]]; then
+echo "$a contains alphanumeric"
+else
+echo "$a does not contains alphanumeric"
+fi
